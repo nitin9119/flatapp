@@ -1,6 +1,15 @@
 .App {
   text-align: center;
 }
+.btn {
+  width: 75px;
+  border: none;
+  background-color: lightgreen;
+  border-radius: 8px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+}
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +45,4 @@
     transform: rotate(360deg);
   }
 }
+
