@@ -20,14 +20,14 @@ export function Navbar() {
           margin: "0 20px 0 20px",
         }}
       >
-        login
+        <Link to="/login">login</Link>
       </div>
       <div
         style={{
           margin: "0 20px 0 20px",
         }}
       >
-        signup
+        <Link to="/signup">Signup</Link>
       </div>
     </div>
   );

@@ -40,12 +40,12 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Home />
 
-      {/* <Routes>
+      <Routes>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/signup" element={<Signup />}></Route>
-      </Routes> */}
+      </Routes>
+      <Home />
 
       <div style={{ display: "flex" }}>
         {data
