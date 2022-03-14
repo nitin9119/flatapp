@@ -45,4 +45,20 @@
     transform: rotate(360deg);
   }
 }
-
+.login-form {
+  margin: 20px auto 10px auto;
+  padding: 10px;
+  border: 1px solid blue;
+  width: 40%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.login-form > input {
+  margin: -8px auto 4px auto;
+  width: 70%;
+}
+.login-form > button {
+  width: 30%;
+  margin: auto;
+}

@@ -23,18 +23,25 @@ function Home() {
   function handleChange(e) {
     e.preventDefault();
     setSearch(e.target.value);
+  }
+
+  const handleSubmit = () => {
     const dat = list.filter((d) => {
       if (d.block === search) {
         return list;
       }
     });
     console.log(dat);
-  }
+  };
+
   return (
     <div>
       <h4>Lists of all Apartments Available:</h4>
       Search -
       <input placeholder="search by block name" onChange={handleChange} />
+      {/* <input type="submit" onClick={handleSubmit}>
+        Search
+      </input> */}
       {list
         ? list.map((el) => {
             return (
